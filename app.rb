@@ -1,4 +1,5 @@
+require 'sinatra'
 
 get '/' do
-  "Welcome to flightconf!"
+  send_file File.join(settings.public_folder, 'index.html')
 end
