@@ -1,6 +1,5 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra", "~> 1.4.3"
+ruby '2.6.5'
 
-# Deploy with cap
-gem "capistrano", "~> 2.15.5"
+gem 'sinatra'
